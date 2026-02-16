@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//button[@aria-haspopup=\"menu\" and .//span[text()=\"Resources\"]]"
-}

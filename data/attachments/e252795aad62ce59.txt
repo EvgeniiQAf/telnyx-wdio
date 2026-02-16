@@ -1,2 +1,0 @@
-move target out of bounds: WebDriverError: move target out of bounds
-  (Session info: chrome=144.0.7559.109) when running "actions" with method "POST"
