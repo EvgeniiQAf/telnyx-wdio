@@ -17,3 +17,5 @@ services:
     environment:
       - SELENIUM_HOST=selenium
     command: npm run test:chrome
+    volumes:
+      - ./allure-results:/app/allure-results
