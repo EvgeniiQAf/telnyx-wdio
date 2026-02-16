@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "button[aria-haspopup=\"menu\"]:has(span=Products)"
+}
