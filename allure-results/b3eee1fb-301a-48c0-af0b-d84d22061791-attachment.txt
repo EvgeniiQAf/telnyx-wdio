@@ -1,0 +1,2 @@
+element click intercepted: WebDriverError: element click intercepted: Element <a href="/data-privacy" class="hover:text-gray-hover-light-background active:text-gray-hover-light-background hover:underline active:underline">...</a> is not clickable at point (594, 549). Other element would receive the click: <div id="onetrust-policy-text">...</div>
+  (Session info: chrome=145.0.7632.76) when running "element/f.714D4B901321115D8281A29107D9A38A.d.34BCA1FD961BE97417FCD5E563B80FA2.e.42/click" with method "POST"

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//footer//a[normalize-space()=\"Data and Privacy\"]"
+}

@@ -1,0 +1,1 @@
+move target out of bounds: WebDriverError: Move target (-542, 7166) is out of bounds of viewport dimensions (1280, 693) when running "actions" with method "POST"
