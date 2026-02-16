@@ -5,6 +5,11 @@ require('dotenv').config({
 exports.config = {
     runner: 'local',
 
+    // 👇 ДОДАЄМО ЦЕ
+    hostname: process.env.SELENIUM_HOST || 'localhost',
+    port: 4444,
+    path: '/wd/hub',
+
     specs: [
         '../test/specs/**/*.js'
     ],

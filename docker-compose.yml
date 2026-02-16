@@ -1,0 +1,19 @@
+services:
+  selenium:
+    image: selenium/standalone-chrome:latest
+    ports:
+      - "4444:4444"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4444/status"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  wdio:
+    build: .
+    depends_on:
+      selenium:
+        condition: service_healthy
+    environment:
+      - SELENIUM_HOST=selenium
+    command: npm run test:chrome
