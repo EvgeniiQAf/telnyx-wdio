@@ -5,7 +5,10 @@ exports.config = {
 
     capabilities: [
         {
-            browserName: 'firefox'
+            browserName: 'firefox',
+            'moz:firefoxOptions': {
+                args: ['-headless']
+            }
         }
     ]
 };

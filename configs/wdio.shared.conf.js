@@ -12,7 +12,6 @@ exports.config = {
     maxInstances: 2,
 
     logLevel: 'info',
-
     bail: 0,
 
     baseUrl: process.env.BASE_URL || 'https://telnyx.com',

@@ -7,10 +7,13 @@ exports.config = {
         {
             browserName: 'chrome',
             'goog:chromeOptions': {
-                args: ['--disable-gpu', '--window-size=1920,1080']
+                args: [
+                    '--headless=new',
+                    '--no-sandbox',
+                    '--disable-gpu',
+                    '--window-size=1920,1080'
+                ]
             }
         }
     ]
 };
-
-
