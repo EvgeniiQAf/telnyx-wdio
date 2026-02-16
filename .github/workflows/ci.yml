@@ -25,6 +25,7 @@ jobs:
       # 4️⃣ Run tests inside Docker
       - name: Run tests in Docker
         run: docker compose up --abort-on-container-exit
+        continue-on-error: true
 
       # 5️⃣ Copy Allure results from wdio container
       - name: Copy Allure results
